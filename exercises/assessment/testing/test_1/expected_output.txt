@@ -1,0 +1,6 @@
+Wasif Enrolled.
+$100.0 Added to Wasif.
+Wasif Bought Sprite.
+University has $102.0.
+Wasif has $108.0.
+Vending Machine has 5 Coca-Cola, 4 Sprite, and 5 Mountain-Dew.
