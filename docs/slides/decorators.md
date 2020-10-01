@@ -254,5 +254,10 @@ Note:
 >>> add('hi', 2)            >>> add('hi', 2, 3)
 'Need x to be an integer'   'Need x to be an integer'
 ```
-
 ---
+
+<!-- .slide: data-state="title" -->
+
+# End of
+# Decorators
+
