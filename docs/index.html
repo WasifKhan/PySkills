@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-  <title>Introduction To Python</title>
+  <title>Decorators</title>
 
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
@@ -43,7 +43,7 @@
         <a href="http://github.com/WasifKhan/PySkills">Slides</a>,
         <a href="http://github.com/WasifKhan/PySkills/tree/master/Exercises">Exercises</a>
         <strong class="text-info ml-1">Contact:</strong>
-        <a href="https://www.pyskillsconsulting.com">Byte Academy Homepage</a>,
+        <a href="https://www.pyskillsconsulting.com">PySkills Homepage</a>,
         <a href="https://github.com/PySkills">Course Owner</a>
       </div>
       <div class="small mt-1"><span class="badge badge-warning mr-1 ml-2 font-weight-bold">&larr; &rarr;</span> navigate
@@ -156,7 +156,7 @@
         .then(data => {
           var menuData = data.map(function (slide) {
             simpleName = slide.replace(/\/(.*)\.md/i, '$1') + ' - Exercises';
-            return '<div class="slide-menu-item"><a href="https://github.com/ByteAcademyCo/Introduction-To-Python/tree/master/Exercises' + slide.slice(0,-3) + '">' + simpleName + '</a></div>';
+            return '<div class="slide-menu-item"><a href="https://github.com/WasifKhan/PySkills/tree/master/Exercises' + slide.slice(0,-3) + '">' + simpleName + '</a></div>';
           });
           document.querySelector('.slide-menu-items').innerHTML = menuData.join('');
         });
